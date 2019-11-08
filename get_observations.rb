@@ -160,4 +160,4 @@ module MushroomData
   end
 end
 
-MushroomData.download!
+puts MushroomData::TAXA.keys.map { |k| "'#{k}'" }.join(", ")
